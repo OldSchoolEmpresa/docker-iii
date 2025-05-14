@@ -1,0 +1,13 @@
+Windows
+wsl --install
+wsl
+wsl -l
+wsl -l -o
+netstat -oa | find "3306" : si un puerto esa siendo utilizado 
+docker stats : cuanto esta usando cada contenedor 
+docker run --name mysql -p 3307:3306 -e MYSQL_ROOT_PASSWORD=123456789 -d mysql:lts = esto es para cuando necesitemos crear otro puerto se cambia el 3307 
+
+Linux :
+
+Htop = es un visor de procesos y una aplicación en modo de texto para la supervisión del sistema en tiempo real.
+Docker logs = id del container o el nombre del container  
