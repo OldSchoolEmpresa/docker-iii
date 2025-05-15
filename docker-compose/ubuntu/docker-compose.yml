@@ -1,0 +1,7 @@
+services:
+
+ ejemplo:
+    image: ubuntu:latest
+    stdin_open: true
+    tty: true
+    command: /bin/bash

@@ -1,0 +1,8 @@
+services:
+
+ ejemplo:
+    image: debian:latest
+    stdin_open: true
+    tty: true
+    container_name: clase5
+    command: /bin/bash
